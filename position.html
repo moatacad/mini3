@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>CSS Positioning</title>
+		<style type="text/css">
+			.social{
+				position:fixed;
+				top:100px;
+				right:0px;
+				border:2px solid red;				
+			}
+			#banner{
+				width:100%;
+				height:300px;
+			}
+			.cta{
+				background-color:orange;
+				position:absolute;
+				top:100px;
+				z-index:1;
+				height:300px;
+			}
+			.menu{
+				background-color:rgba(255,0,0,0.4);
+				width:100%;
+				height:80px;
+				position:sticky;
+				top:0px;
+			}
+		</style>
+	</head>
+	<body style="height:1500px">
+	<div id="banner">
+		<img src="images/picture.png" width="100%" height="100%">
+	</div>
+	<h1 class='cta'>Official Website</h1>
+	<div class='menu'>
+		<p>Menu will be here</p>
+	</div>
+	
+	
+<div class='social'>
+	<a href=""><img src="images/hotels.jpg" width="60"></a><br>
+	<img src="images/mixed.jpg" width="60"><br>
+	<img src="images/picture.png" width="60">
+</div>
+	
+	
+		<h1>Welcome Home!</h1>		
+	    <div class="parent">
+			
+			<p>I am your sibling</p>
+		</div>		
+		<p>I am another element under the red box<p>
+		
+		
+		
+	</body>
+</html>
